@@ -1,6 +1,6 @@
 <template>
     <div class="wrap">
-        <h1>新潮工作内容</h1>
+        <h1>sxv</h1>
     </div>
 </template>
 <script>
