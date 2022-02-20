@@ -1,0 +1,18 @@
+{
+  "name": "rice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "smi"
+  },
+  "bin": {
+    "smi": "./bin/smi.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "webpack-dev-middleware": "^4.1.0"
+  }
+}
