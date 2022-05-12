@@ -4,6 +4,7 @@ import {Router,Route,Switch} from 'react-router-dom';
 import history from './core/history';
 import {getRoutes} from './core/routes';
 import plugin from './core/plugin';
+import 'antd/dist/antd.css'
 //import {renderRoutes} from 'react-router-config';
 
 

@@ -1,18 +1,44 @@
 {
-  "name": "rice",
-  "version": "1.0.0",
+  "name": "@ping-home/rice",
+  "version": "1.3.4",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "smi"
+    "dev": "rice",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsmjz.rice.git"
   },
   "bin": {
-    "smi": "./bin/smi.js"
+    "rice": "./bin/rice.js"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@ping-home/rice": "^1.0.0",
+    "antd": "^4.20.0",
+    "babel-loader": "^8.2.5",
+    "cache-loader": "^4.1.0",
+    "css-loader": "^6.7.0",
     "express": "^4.17.1",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less-loader": "^10.2.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "mustache": "^4.2.0",
+    "node-notifier": "^10.0.1",
+    "px2rem-loader": "^0.1.9",
+    "react": "^18.0.0",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "speed-measure-webpack5-plugin": "^1.3.3",
+    "style-loader": "^3.3.1",
+    "webpack-bundle-analyzer": "^4.5.0",
     "webpack-dev-middleware": "^4.1.0"
   }
 }
