@@ -4,8 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cli": "node bin/rice cli",
     "dev": "rice",
-    "build": "webpack"
+    "build": "webpack",
+    "color": "node bin/rice color",
+    "style": "node bin/rice style",
+    "theme": "node bin/rice theme",
+    "newPage": "plop --plopfile ./scripts/plopfile-js.js",
+    "delNodeModules": "node bin/rice del"
   },
   "repository": {
     "type": "git",
@@ -40,5 +46,15 @@
     "style-loader": "^3.3.1",
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-dev-middleware": "^4.1.0"
+  },
+  "devDependencies": {
+    "@intervolga/optimize-cssnano-plugin": "^1.0.6",
+    "@vue/cli-shared-utils": "^5.0.4",
+    "copy-concurrently": "^1.0.5",
+    "lodash": "^4.17.21",
+    "node-sass": "^7.0.1",
+    "plop": "^3.1.0",
+    "sass-loader": "^13.0.0",
+    "webpack": "^5.72.1"
   }
 }
