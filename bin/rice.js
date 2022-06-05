@@ -13,31 +13,15 @@
 
 const defaultCommand = function (args, type) {
   console.log(
-    `my不支持${type}命令，请检查输入是否正确，或查看my命令文档和用法。`
+    `sailfish不支持${type}命令，请检查输入是否正确，或查看sailfish命令文档和用法。`
   )
 }
 
 const commandArray = [
-  // 'coder',
-  // 'fix',
-  // 'color',
-  // 'jsdoc',
-  // 'svg',
-  // 'demo',
-  // 'theme',
-  // 'ready',
-  // 'route',
-  // 'bridge',
-  // 'start',
-  // 'server',  
-  // 'preview',
-  // 'app',
-  // 'page',
-  // 'widgets',
-  // 'create'
-  'cli',
+  'dev',
   'color',
-  'theme'
+  'theme',
+  'newPage'
 ]
 const commandMap = Object.create(null)
 commandArray.forEach(name => {

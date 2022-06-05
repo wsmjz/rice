@@ -1,17 +1,19 @@
 {
   "name": "@ping-home/rice",
-  "version": "1.3.4",
+  "version": "1.3.8",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cli": "node bin/rice cli",
+    "cli": "node bin/rice dev",
     "dev": "rice",
     "build": "webpack",
     "color": "node bin/rice color",
     "style": "node bin/rice style",
     "theme": "node bin/rice theme",
-    "newPage": "plop --plopfile ./scripts/plopfile-js.js",
-    "delNodeModules": "node bin/rice del"
+    "new-page": "plop --plopfile ./scripts/plopfile-js.js",
+    "plop": "plop --plopfile ./scripts/plopfile-js.js",
+    "del-NM": "node bin/rice del",
+    "uglify": "uglifyjs ./build/theme.js --compress --mangle --output ./build/theme.min.js"
   },
   "repository": {
     "type": "git",

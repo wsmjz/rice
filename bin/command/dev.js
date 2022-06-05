@@ -6,20 +6,6 @@ let pluginRice = require('../../lib/plugins/generateFiles/rice');
 let pluginRoutes = require('../../lib/plugins/generateFiles/routes');
 let pluginPlugin = require('../../lib/plugins/generateFiles/Plugin');
 
-// (async function () {
-//   let service = new Service({
-//     plugins: [
-//       { id: 'dev', apply: pluginDev },
-//       { id: 'history', apply: pluginHistory },
-//       { id: 'rice', apply: pluginRice },
-//       { id: 'routes', apply: pluginRoutes },
-//       { id: 'plugin', apply: pluginPlugin }
-//     ]
-//   });
-//   //运行dev这个命令
-//   await service.run({ name: 'dev' });
-// })();
-
 /**
  * 插件是有标准定义的
  * 格式{id:'dev',apply:此插件对应的函数}

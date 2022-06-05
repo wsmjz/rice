@@ -1,7 +1,7 @@
 /**
  * Element 主题打包 webpack 配置文件
  *
- * @author chenhuachun
+ * @author shouwang
  */
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCssnanoPlugin = require('@intervolga/optimize-cssnano-plugin')
